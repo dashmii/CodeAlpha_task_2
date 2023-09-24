@@ -1,0 +1,55 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: linear-gradient(to right, #FF5733, #FFD133); */
+            /* background-image: url('https://www.bypeople.com/wp-content/uploads/2015/07/low-poly-online-background-generator.jpg');
+            background-size: cover;
+        */
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        input[type="color"] {
+            width: 50px;
+            height: 30px;
+            border: none;
+            outline: none;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #gradient {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(to right, #FF5733, #FFD133);
+            border-radius: 5px;
+        }
+    
